@@ -1,0 +1,22 @@
+
+import java.util.*;
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String l;
+        int i = 1;
+        while(true){
+        try{
+            l = sc.nextLine();
+            System.out.printf("%d %s\n",i,l);
+            i+=1;
+        }
+        catch(Exception e){
+            break;
+        }
+        }
+}
+}
